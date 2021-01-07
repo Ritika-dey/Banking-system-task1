@@ -1,0 +1,45 @@
+*{
+    padding:0;
+    margin: 0;
+}
+.contents{ 
+    padding: 10px; 
+    background-color: rgb(255, 255, 255);
+}
+.contents .bank img{
+    width: 70%;
+    display: block;
+    margin: 0 auto;   
+    box-shadow: 4px 4px 10px #000000;
+}
+.contents .option1 img{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 4px 4px 10px #000000; 
+}
+.contents .option2 img{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 4px 4px 10px #000000;    
+}
+.contents .option3 img{
+    width: 35%;
+    display: block;
+    margin: 10px auto; 
+    box-shadow: 4px 4px 10px #000000;
+}
+@media(max-width : 600px)
+{
+    .contents .option1 img{
+        margin: 10px auto;
+    }
+    .contents .option2 img{
+        margin: 10px auto;
+    }
+    .contents .option3 img{
+        margin: 10px auto 10px;
+        width: 70%;
+    }
+}
